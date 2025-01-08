@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/itemTvBin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bin" />
+
+    <TextView
+        android:id="@+id/itemTvCountry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Страна" />
+
+    <TextView
+        android:id="@+id/itemTvLoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Координаты" />
+
+    <TextView
+        android:id="@+id/itemTvCardType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Тип карты" />
+
+    <TextView
+        android:id="@+id/itemTvUrlBank"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="www...." />
+
+    <TextView
+        android:id="@+id/itemTvPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Номер телефона банка" />
+
+    <TextView
+        android:id="@+id/itemTvWebSite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Сайт банка" />
+
+    <TextView
+        android:id="@+id/itemTvCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Город" />
+</LinearLayout>
