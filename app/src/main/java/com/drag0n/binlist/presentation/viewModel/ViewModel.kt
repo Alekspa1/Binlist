@@ -27,8 +27,8 @@ class ViewModel
     private val _infoBinLD = MutableLiveData<Bin>()
     val infoBinLD:LiveData<Bin> = _infoBinLD
 
-    fun loadTrue(){ _load.value = true }
-    fun loadFalse(){ _load.value = false }
+    private fun loadTrue(){ _load.value = true }
+    private fun loadFalse(){ _load.value = false }
 
 
     fun getInfoBinApi(value: String){

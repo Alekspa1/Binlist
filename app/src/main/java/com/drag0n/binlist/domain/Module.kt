@@ -29,7 +29,8 @@ object Module {
 
         val retrofit = Retrofit.Builder()
             .addConverterFactory(GsonConverterFactory.create())
-            .baseUrl(BASE_URL).client(client)
+            .baseUrl(BASE_URL)
+            .client(client)
             .build()
         return retrofit.create(BinApi::class.java)
     }

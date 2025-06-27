@@ -47,7 +47,7 @@ class SearchBinFrag : Fragment() {
         binding.button.setOnClickListener {
             uprateInfoBin()
         }
-        binding.editTextText.setOnEditorActionListener { v, actionId, event ->
+        binding.editTextText.setOnEditorActionListener { _, actionId, event ->
             if (actionId == EditorInfo.IME_ACTION_DONE ||
                 (event != null && event.action == KeyEvent.ACTION_DOWN && event.keyCode == KeyEvent.KEYCODE_ENTER)) {
                uprateInfoBin()
